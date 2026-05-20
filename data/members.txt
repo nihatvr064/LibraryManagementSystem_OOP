@@ -1,0 +1,13 @@
+GoldMember;U009;Elvin
+GoldMember;U008;Nihat
+SilverMember;U007;Nigar
+SilverMember;U006;Rauf
+SilverMember;U005;Leyla
+BasicMember;U004;Murad
+BasicMember;U003;Aysel
+BasicMember;U002;Ali
+SilverMember;U013;Exi
+SilverMember;U001;Fuad
+GoldMember;U012;Nihat
+GoldMember;U011;Kamran
+GoldMember;U010;Sara

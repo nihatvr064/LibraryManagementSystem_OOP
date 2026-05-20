@@ -1,0 +1,31 @@
+Magazine;M010;MIT Technology Review;Various;true
+Thesis;T008;Mobile Learning Platforms;Sara Huseynova;true
+Thesis;T009;Natural Language Processing Tools;Kamran Abbasov;true
+Thesis;T006;Machine Learning for Healthcare;Nigar Ismayilova;true
+Thesis;T007;Blockchain Based Records;Elvin Quliyev;true
+Thesis;T004;Data Mining for Student Success;Leyla Hasanli;true
+Thesis;T005;Cloud Computing Adoption;Rauf Karimov;true
+Book;B011;Operating System Concepts;Abraham Silberschatz;true
+Book;B010;Database System Concepts;Abraham Silberschatz;true
+Thesis;T010;Smart Campus Management;Gunel Bayramova;true
+Magazine;M004;Forbes;Various;true
+Magazine;M003;Time;Various;true
+Magazine;M002;Scientific American;Various;true
+Magazine;M001;National Geographic;Various;true
+Book;B008;Refactoring;Martin Fowler;true
+Magazine;M008;Popular Science;Various;true
+Book;B009;Introduction to Algorithms;Thomas H. Cormen;true
+Magazine;M007;Harvard Business Review;Various;true
+Book;B006;Java Concurrency in Practice;Brian Goetz;true
+Magazine;M006;The Economist;Various;true
+Book;B007;The Pragmatic Programmer;Andrew Hunt;true
+Magazine;M005;Wired;Various;true
+Book;B004;Design Patterns;Erich Gamma;true
+Book;B005;Head First Java;Kathy Sierra;true
+Book;B002;Clean Code;Robert C. Martin;true
+Book;B003;Effective Java;Joshua Bloch;true
+Magazine;M009;Smithsonian;Various;true
+Book;B001;salam;aleykum;true
+Thesis;T002;Library Automation Systems;Aysel Mammadova;true
+Thesis;T003;Cybersecurity in Universities;Murad Aliyev;true
+Thesis;T001;AI in Education;Nihat Rustamli;true
