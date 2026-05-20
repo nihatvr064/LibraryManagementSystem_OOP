@@ -6,5 +6,13 @@ public interface Borrowable {
 
     void returnItem(Member member);
 
-    double calculateFine(int overdueDays);
+    double getFinePerOverdueDay();
+
+    default double calculateFine(int overdueDays) {
+        if (overdueDays <= 0) {
+            return 0;
+        }
+
+        return overdueDays * getFinePerOverdueDay();
+    }
 }

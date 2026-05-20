@@ -295,7 +295,7 @@ public class Main {
     private static void printStats() {
         System.out.println(BLUE + """
 ┌──────────────────────────────────────────────────────────┐
-│Fine: 0.25 AZN/day | Book: 14d | Magazine: 7d | Thesis:21d│
+│Book:0.50/day | Magazine:0.25/day | Thesis:1.00/day        │
 └──────────────────────────────────────────────────────────┘
 """ + RESET);
     }

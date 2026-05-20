@@ -9,8 +9,10 @@ import az.library.util.ItemTablePrinter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class Library {
 
@@ -206,11 +208,35 @@ public class Library {
         Member member = members.get(normalizeId(memberId));
         LibraryItem item = catalog.get(normalizeId(itemId));
 
-        if (member != null && item != null && item.isAvailable()) {
-            if (item instanceof Borrowable borrowable) {
-                borrowable.borrow(member);
+        if (member == null || item == null || member.getBorrowedItems().contains(item) || isBorrowed(item)) {
+            return;
+        }
+
+        if (item instanceof Borrowable borrowable) {
+            borrowable.borrow(member);
+        }
+    }
+
+    public void syncItemAvailabilityWithBorrows() {
+        Set<LibraryItem> borrowedItems = new HashSet<>();
+
+        for (Member member : members.values()) {
+            borrowedItems.addAll(member.getBorrowedItems());
+        }
+
+        for (LibraryItem item : catalog.values()) {
+            item.setAvailable(!borrowedItems.contains(item));
+        }
+    }
+
+    private boolean isBorrowed(LibraryItem item) {
+        for (Member member : members.values()) {
+            if (member.getBorrowedItems().contains(item)) {
+                return true;
             }
         }
+
+        return false;
     }
 
     private String normalizeId(String id) {

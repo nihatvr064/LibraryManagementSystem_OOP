@@ -6,6 +6,7 @@ Thesis;T007;Blockchain Based Records;Elvin Quliyev;true
 Thesis;T004;Data Mining for Student Success;Leyla Hasanli;true
 Thesis;T005;Cloud Computing Adoption;Rauf Karimov;true
 Book;B011;Operating System Concepts;Abraham Silberschatz;true
+Book;B012;CveC;Feodor;true
 Book;B010;Database System Concepts;Abraham Silberschatz;true
 Thesis;T010;Smart Campus Management;Gunel Bayramova;true
 Magazine;M004;Forbes;Various;true

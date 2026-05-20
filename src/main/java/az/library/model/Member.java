@@ -8,8 +8,6 @@ import java.util.List;
 
 public abstract class Member {
 
-    protected static final double BASE_FINE = 0.25;
-
     private String memberId;
     private String name;
     private final List<LibraryItem> borrowedItems;
@@ -21,8 +19,6 @@ public abstract class Member {
     }
 
     public abstract int getMaxBorrowLimit();
-
-    public abstract double getFineMultiplier();
 
     public void borrowItem(LibraryItem item) {
         if (item == null) {

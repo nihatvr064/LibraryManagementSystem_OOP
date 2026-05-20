@@ -13,8 +13,4 @@ public class BasicMember extends Member {
         return 2;
     }
 
-    @Override
-    public double getFineMultiplier() {
-        return BASE_FINE;
-    }
 }

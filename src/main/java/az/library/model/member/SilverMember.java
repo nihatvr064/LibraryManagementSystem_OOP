@@ -13,8 +13,4 @@ public class SilverMember extends Member {
         return 4;
     }
 
-    @Override
-    public double getFineMultiplier() {
-        return BASE_FINE;
-    }
 }

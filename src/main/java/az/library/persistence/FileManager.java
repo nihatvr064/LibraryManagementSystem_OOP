@@ -25,6 +25,7 @@ public class FileManager {
         loadItems(library);
         loadMembers(library);
         loadBorrows(library);
+        library.syncItemAvailabilityWithBorrows();
     }
 
     private static void saveItems(Library library) {

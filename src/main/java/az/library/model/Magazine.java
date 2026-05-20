@@ -29,7 +29,7 @@ public class Magazine extends LibraryItem implements Borrowable {
     }
 
     @Override
-    public double calculateFine(int overdueDays) {
-        return overdueDays <= 0 ? 0 : overdueDays * 0.25;
+    public double getFinePerOverdueDay() {
+        return 0.25;
     }
 }

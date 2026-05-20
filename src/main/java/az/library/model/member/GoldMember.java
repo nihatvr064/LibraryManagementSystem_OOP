@@ -13,8 +13,4 @@ public class GoldMember extends Member {
         return 6;
     }
 
-    @Override
-    public double getFineMultiplier() {
-        return BASE_FINE;
-    }
 }
